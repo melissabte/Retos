@@ -1,0 +1,5 @@
+com\accenture\Youtube\steps\serenity\EndUserSteps.class
+com\accenture\Youtube\pages\Youtubepage.class
+com\accenture\Youtube\pages\Gmailpage.class
+com\accenture\Youtube\steps\DefinitionSteps.class
+com\accenture\Youtube\DefinitionTestSuite.class
