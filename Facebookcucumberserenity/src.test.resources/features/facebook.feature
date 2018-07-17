@@ -6,7 +6,7 @@ Feature: Title of your feature
   @tag1
   Scenario: facebook
     Given  that melissa opened her browser at facebook home page
-    And ingrese el correo mona_bte@hotmail.com y 38253642 to
+    And ingrese el correo email y password to
     When busque la siguiente persona 
     Then obtener lista
    

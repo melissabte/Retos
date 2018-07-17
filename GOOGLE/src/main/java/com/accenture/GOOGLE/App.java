@@ -1,4 +1,4 @@
-package com.accenture.GOOGLE;
+﻿package com.accenture.GOOGLE;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -109,10 +109,10 @@ public class App {
 		}
 		Thread.sleep(3000);
 		click1 = driver.findElement(By.xpath("//*[@id=\"identifierId\"]"));
-		click1.sendKeys("m.bustamante9514 \n");
+		click1.sendKeys("email \n");
 		Thread.sleep(3000);
 		click2 = driver.findElement(By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input"));
-		click2.sendKeys("melissa1037644654 \n");
+		click2.sendKeys("password \n");
 		Thread.sleep(3000);
 		click3 = driver.findElement(By.xpath("//*[contains(@class,'T-I J-J5-Ji T-I-KE L3')]"));
 		//*[contains(@class,'T-I J-J5-Ji T-I-KE L3')]

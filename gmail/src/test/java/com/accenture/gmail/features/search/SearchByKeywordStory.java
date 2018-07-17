@@ -1,4 +1,4 @@
-package com.accenture.gmail.features.search;
+﻿package com.accenture.gmail.features.search;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.serenitybdd.screenplay.Actor;
@@ -49,8 +49,8 @@ public class SearchByKeywordStory {
     	herBrowser.manage().window().maximize();
         givenThat(melissa).wasAbleTo(openTheApplication);
 
-        when(melissa).attemptsTo(Ingresarcorreo.forTheTerm("m.bustamante9514@gmail.com"));
-     when(melissa).attemptsTo(Ingresarcontraseña.forTheTerm("melissa1037644654"));
+        when(melissa).attemptsTo(Ingresarcorreo.forTheTerm("email"));
+     when(melissa).attemptsTo(Ingresarcontraseña.forTheTerm("password"));
      when(melissa).attemptsTo(Darclick.forTheTerm()); 
      when(melissa).attemptsTo(Ingresardestinatario.forTheTerm("m.bustamante9514@gmail.com"));
      when(melissa).attemptsTo(Asuntocorreo.forTheTerm("prueba screenplay"));
