@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="802bb8189e647207d37da3357402f7461c3474a022b80953d978f9d93478c4b4.html">Title Of Your Feature</a></span>
+                > <span class="truncate-60"><a
+                    href="ec7c4b3fee341b48a468de48c587d6ce18037397f54879daebdcecb38d921a92.html">Facebook </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-07-2018 11:47</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Title Of Your Feature</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to use this template for my feature file
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Facebook
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="9af2320459cad215a3fcc3e64de00bb28a9d53bcb8c5ec162762b6718477e23e.png" title="Given that melissa opened her browser at facebook home page" width="1034"/>
+                <img src="38c809cc8addbb716402cbabea683e206868daddb80e0fa3ab532c32c5d71a4f.png" title="melissa goes to #OpenTheBrowser" width="1034"/>
+                <img src="9af2320459cad215a3fcc3e64de00bb28a9d53bcb8c5ec162762b6718477e23e.png" title="melissa opens the Facebookpage" width="1034"/>
+                <img src="38c809cc8addbb716402cbabea683e206868daddb80e0fa3ab532c32c5d71a4f.png" title="And ingrese el correo mona_bte@hotmail.com y 38253642 to" width="1034"/>
+                <img src="f8c3e1dbb66e2618c00d8b568fa9747a263651a61ba1fed23634c57ddb9d215c.png" title="And ingrese el correo mona_bte@hotmail.com y 38253642 to" width="1034"/>
+                <img src="f518856d13d348ce21ddb5c938bef74357f723f708b9b2ae455d4e6325c33fdb.png" title="melissa FACEBOOK #Facebooklogin" width="1034"/>
+                <img src="f89d5544b8755bce0643686ad1c17bdd881783749e6d6558c0404bb446585bc6.png" title="melissa enters 'mona_bte@hotmail.com' into Facebook correo" width="1034"/>
+                <img src="c36ac0c66c0f3df06a00ec3b95aabb4bd532098828ea23aff7016e2aaca30672.png" title="melissa enters '38253642' into Facebook contrase&ntilde;a" width="1034"/>
+                <img src="39c3e3c026e221eaacabe35363113979fc0104792d0793f03a266cc88a5edfd3.png" title="melissa enters '38253642' into Facebook contrase&ntilde;a" width="1034"/>
+                <img src="7c5cb32272917893549af1830303dbeadcf4b0e41d6cad60c56cad3f5cda7eae.png" title="melissa clicks on Boton inicio" width="1034"/>
+                <img src="c2f52978789b9ce62a5ecea6807baa5fecac9bd4d709301ffb6ebf1731f5abe6.png" title="melissa clicks on Boton inicio" width="1034"/>
+                <img src="962d1a6f47e2929a9daea9dda666f69dc60e67c42de4bd0b53c412d7ef3152c6.png" title="When busque la siguiente persona" width="1034"/>
+                <img src="1cd8b38ce09330639334cb07293aebfbcb5399966e766af201078590b7677c6d.png" title="When busque la siguiente persona" width="1034"/>
+                <img src="f2bc41ddc6b155f7c89af34c5ada0c71f5ad0fca2aaf2a72c7569b19f74cc885.png" title="melissa enters 'Melissa Bustamante Narvaez' into buscador" width="1034"/>
+                <img src="00afd4bd565a80bd8500bb1137826e6715ed93d3b5bbf23e6f51cbf149d765b1.png" title="melissa enters 'Melissa Bustamante Narvaez' into buscador" width="1034"/>
+                <img src="e5b6e356fbeb09342b9a41ea2b1f6dfd6289a6d65b6ad27e75ba23bb3bca1d10.png" title="melissa clicks on boton buscar" width="1034"/>
+                <img src="4fa9bc81b8348d860999c3a9d4d621a6b34f406ac23a5f792763d6bc2df30527.png" title="melissa clicks on boton buscar" width="1034"/>
+                <img src="6332812a0bb70231577c87b00d78c912e970b5067ff1419062a8fa6815fa289a.png" title="melissa clicks on seleccionar perfil" width="1034"/>
+                <img src="6ce97921fb1df685ebaaa8d9f2c20c12eea2a16d28772c31b0f805864cd2727b.png" title="melissa clicks on seleccionar perfil" width="1034"/>
+                <img src="e81e93215b8a7493b502e4be55dc33c304279bb33e2cc2e4b38adb3cb75acc02.png" title="melissa enters 'Karen Zapata' into buscador" width="1034"/>
+                <img src="fe85751a22abd5bfd653c04bad5508d2362e5ab796eff331c82d5698f5a99805.png" title="melissa enters 'Karen Zapata' into buscador" width="1034"/>
+                <img src="642f8ffa7a759bb9a4fbe6344e2ed9d959429a7ea9f56d3a81b764dace5429e7.png" title="melissa clicks on boton buscar" width="1034"/>
+                <img src="8917bff9076ab9cefe6fd33f3894953324b04f0a7a6029cac7e689c051e2a7c3.png" title="melissa clicks on boton buscar" width="1034"/>
+                <img src="c2af44f1c22935f37c5ddb7af28b01a02e248606de835b3aeb323b5a5a03810f.png" title="melissa clicks on seleccionar perfil" width="1034"/>
+                <img src="bbeb7a4ed1bfcd1e2457255b31bd08742b86aef6da6a7e38a8b9cbc5a00b2926.png" title="melissa clicks on seleccionar perfil" width="1034"/>
+                <img src="99beca0b4f807d3d1f8df3e096a225a599a1f16e560b991aeb053c417d5bf762.png" title="melissa enters 'Juan Pablo Orrego Zapata' into buscador" width="1034"/>
+                <img src="e327ba7fb88eb871caee2076c9a4f6a8443c205e3a3b076231c14a5cf1e21b38.png" title="melissa enters 'Juan Pablo Orrego Zapata' into buscador" width="1034"/>
+                <img src="fc05231cc33a91fc34565a78943faea9e75f47d95ccf522ab1f6dddda9de83cb.png" title="melissa clicks on boton buscar" width="1034"/>
+                <img src="a923e72cc2388b2ed1a823fb70d70a4ab4e2d760322c836be9522159e1b9dbc6.png" title="melissa clicks on boton buscar" width="1034"/>
+                <img src="ac8067e24e69d4969c1960188bc4f5377f87c60bc628940c467e66d1ab098b9c.png" title="melissa clicks on seleccionar perfil" width="1034"/>
+                <img src="5dff38a284fedd4eea58551ddafa5703bf91977c8ca79ace8da0f91a3e8d7547.png" title="melissa clicks on seleccionar perfil" width="1034"/>
+                <img src="1cd8b38ce09330639334cb07293aebfbcb5399966e766af201078590b7677c6d.png" title="Then obtener lista" width="1034"/>
+                <img src="1cd8b38ce09330639334cb07293aebfbcb5399966e766af201078590b7677c6d.png" title="Then guardarnombres should be ([Melissa Bustamante Narvaez, Karen Zapata, Juan Pablo Orrego Zapata]): <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
